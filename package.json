@@ -1,0 +1,20 @@
+{
+  "name": "flink",
+  "version": "1.0.0",
+  "description": "Flink assignment using cypress and cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec \"**/*.feature\"",
+    "test:all": "cypress run --spec \"**/*.features\"",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "author": "Amna Bibi",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^12.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.3",
+    "cypress": "^10.4.0",
+    "esbuild": "^0.14.54"
+  }
+}
