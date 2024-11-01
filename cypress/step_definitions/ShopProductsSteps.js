@@ -1,4 +1,4 @@
-/// <reference types="Cypress" />
+/// <reference types="cypress" />
 import {Given, When, And, Then} from '@badeball/cypress-cucumber-preprocessor';
 import { clickBuyButtonUsingTemperature, 
     selectProductsAndMoveToCart, 

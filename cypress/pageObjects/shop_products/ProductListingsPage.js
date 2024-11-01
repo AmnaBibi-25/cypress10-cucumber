@@ -1,4 +1,4 @@
-/// <reference types = "Cypress" />
+/// <reference types = "cypress" />
 class ProductListingsPage {
     getProductsListingsPageTitle() {
         return cy.get('div.row.justify-content-center > h2');

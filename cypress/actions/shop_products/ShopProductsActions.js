@@ -1,4 +1,4 @@
-/// <reference types="Cypress" />
+/// <reference types="cypress" />
 
 import ProductCategoryPage from '../../pageObjects/shop_products/ProductCategoryPage';
 import ProductListingsPage from '../../pageObjects/shop_products/ProductListingsPage';

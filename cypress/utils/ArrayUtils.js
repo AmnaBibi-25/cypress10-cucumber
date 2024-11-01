@@ -1,4 +1,4 @@
-/// <reference types="Cypress" />
+/// <reference types="cypress" />
 
 export const splitTextOnComma = (str) => {
     const data = str.split(",");
